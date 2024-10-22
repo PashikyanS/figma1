@@ -1,0 +1,579 @@
+*{
+    margin: 0;
+}
+body{
+    overflow-x: hidden
+}
+header{
+    display: flex;
+    background-color: transparent;
+    padding: 20px 40px 20px 40px;
+    justify-content: space-between;
+    height: 144px;
+    background-image: linear-gradient(#14232a 50%, transparent);
+}
+.header{
+    background-image:url(images/Mask.png) ;
+    background-repeat: no-repeat;
+    background-color: #14232A;
+    box-shadow: 1px 1px 100px 140px #14232A inset;
+    width: 100%;
+    height: 800px;
+    background-size: contain;
+}
+nav{
+    margin-top: 25px;
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+
+}
+.greenbtn{
+    background-color: #8CC63F;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-size: 20px;
+    color: white;
+    box-shadow:  -3px 3px 0px 0px #14232A,-4px 4px 0px 0px#8CC63F;
+}
+.centertext{
+    padding: 15px;
+    position: relative;
+    width: 600px;
+    left: 250px;
+    background-size: cover;
+    background-image: url(images/Mask\ Group\ \(1\).png);
+}
+
+.insertdiv{
+    position: relative;
+    width: 400px;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.insertdiv span{
+    color: white;
+}
+.insertdiv span span{
+    color: greenyellow;
+}
+.caps_text{
+    color: #746f6f;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.Body_txt_H1_2{
+    width: 350px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+.btn{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.elipse{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: #14232a;
+    background-image: url(images/Ellipse\ 1.png);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.group2{
+    z-index: 1;
+    position: relative;
+    top: 35px;
+    background-image: url(images/Group\ 2.png);
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.rectangel{
+    z-index: 2;
+    margin-top: 70px;
+    position: relative;
+    top: 50px;
+    background-image: url(images/Rectangle\ 14.png);
+    width: 2px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caps_text2{
+    font-weight: 600;
+    font-size: 14px;
+    color: #8CC63F;
+    text-align: center;
+    font-family: sans-serif;
+}
+.services{
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+.ourserimg{
+    background-image: url(images/Title.png);
+    width: 700px;
+    height: 140px;
+    margin-top: 20px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.our{
+ 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.sers6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 70px 200px 0 200px;
+    gap: 100px;
+}
+.serv{
+    width: 250px;
+    height: 200px;
+
+    /* background-color: red; */
+}
+.serimg1{
+    background-image: url(images/design_icon.png);
+}
+.serimg2{
+    background-image: url(images/animation_icon.png);
+}
+.serimg3{
+    background-image: url(images/ux_icon.png);
+}
+
+.serimg5{
+    background-image: url(images/economy_design_icon.png);
+}
+.serimg6{
+    background-image: url(images/marketing_icon.png);
+}
+.serimg1, .serimg2, .serimg3, .serimg4, .serimg5, .serimg6{
+    width: 160px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.serimg4{
+    /* background-size: contain; */
+    border-radius: 12px;
+    border: #a7d867 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sertext{
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.aboutworks{
+    text-align: center;
+    padding: 90px 0;
+    background-color: #F0F5F9;
+}
+.textabout{
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutworks div h2{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 25px 0;
+}
+.textabout p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #6B6B6B;
+}
+.gameimage{
+    z-index: 1;
+    background-image: url(images/Mask\ Group.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    filter: contrast(120%);
+}
+.iphoneimage{
+    top: 80px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 620px;
+    max-height: 340px;
+    background-image: url(images/iPhone\ X.png);
+}
+.bitzer{
+    background-image: url(images/Group\ 8.png);
+    background-size: contain;
+    position: relative;
+    width: 450px;
+    height: 330px;
+    top: 130px;
+    left: 150px;
+}
+.middleleft, .middleright{
+    background-color: red;
+    margin: 10px;
+    width: 420px;
+    height: 232px;
+}
+.games{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.left, .right{
+    width: 320px;
+    height: 232px;
+    background-color: rgb(181, 175, 175);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.left{
+    margin-right: 10px;
+    background-image: url(images/Mask\ Group\ \(3\).png);
+}
+.left div img, .right div img{
+    width: 320px;
+    height: 232px;
+}
+.right{
+    margin-left: 10px;
+    background-image: url(images/Mask\ Group\ \(5\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.middleleft{
+    
+    background-image: url(images/Mask\ Group\ \(4\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.middleleft div img, .middleright div img{
+
+    width: 420px;
+    height: 232px; 
+}
+.gamename {
+    font-family: sans-serif;
+    margin-top: -75px;
+}
+.gamename p:first-child{
+    font-size: 20px;
+    color:rgb(230, 227, 227);
+    font-weight: 600;
+    margin: 10px;
+}
+.gamename p:last-child{
+    font-size: 14px;
+    color:rgb(221, 220, 220);
+    font-weight: 600;
+    margin: 10px;
+}
+.clients{
+    width: 60%;
+    margin: 50px auto 40px auto;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.clients div img{
+    height: 50px;
+}
+.clients h3{
+    font-size: 12px;
+    font-family: sans-serif;
+    color:#8CC63F;
+}
+.text2 {
+    display:flex;
+    justify-content: space-between;
+}
+.text2 div:first-child {
+    font-size: 40px;
+    font-family: sans-serif;
+    width: 400px;
+}
+.text2 div:last-child {
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 400px;
+    margin-right: 60px;
+}
+.logo div, .logo div img {
+    width: 120px;
+    height: 120px;
+}
+.logo div {
+    margin-bottom: 30px;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.workt{
+    background-color: #8CC63F;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.workt p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.aboutclient{
+    width: 90%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    display: flex;
+    justify-content: end;
+}
+.hood{
+    padding: 80px;
+    background-color: #F0F5F9;
+    width: 70%;
+}
+.chakert{
+    height: 60px;
+    background-size: cover;
+}
+.text3{
+    font-family: sans-serif;
+    font-size: 22px;
+    width: 510px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    
+}
+.client{
+    display: flex;
+    margin-top: 40px;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.names{
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.name{
+    font-weight: 600;
+    font-size: 18px;
+}
+.film{
+    font-weight: 200;
+}
+.centerlogin{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -100px;
+    z-index: -1;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    width: 1300px;
+    border-radius: 10px;
+    background-color: #8CC63F;
+    
+}
+.back{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 40px 40px;
+    margin: 60px 0;
+    gap: 250px;
+    background-image: url(images/Mask\ Group\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text4{
+    color: white;
+    font-family: sans-serif;
+    width: 380px;
+}
+.text4 span{
+    font-size: 15px;
+    font-weight: 100;
+
+}
+.aboutyou p{
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.ideas p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.inputarea{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 20px;
+}
+.inputarea input{
+    height: 45px;
+    width: 330px;
+    border-radius: 2px;
+    border: none;
+}
+.inputarea input::placeholder, .inputarea textarea::placeholder{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.inputarea input:last-child{
+    height: 40px;
+    width: 338px;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    background-color: #14232A;
+    box-shadow:  -4px 4px 0px 0px #8CC63F,-5px 5px 0px 0px #14232A;
+}
+.inputarea textarea{
+    width: 332px;
+    height: 60px;
+    border-radius: 2px;
+    border: none;
+   
+}
+.fcontainer {
+    background-color: #263238; /* Dark background */
+    color: #ffffff;
+    padding: 130px 0 30px 0;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  
+.ftop {
+  margin-bottom: 20px;
+}
+
+.fcontact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 14px;
+  color: #ccc; /* Light gray text for contact info */
+}
+
+.company-logo {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.fsocial {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.fsocial div a {
+  margin: 0 10px;
+  display: inline-block;
+  width: 35px;
+  height: 30px;
+}
+.fsocial div{
+    background-color: white;
+    border-radius: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    margin: 0 10px;
+
+}
+.fsocial img {
+  width: 30px;
+  height: 30px;
+}
+
+.flinks {
+  margin-bottom: 20px;
+}
+
+.flinks a {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.flinks a:hover {
+  cursor: pointer;
+}
+
+.fbottom {
+  color: #999; /* Lighter text for the copyright */
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 800px) {
+    .login{
+        width: 500px;
+
+    }
+    .back{
+        width: 459px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .sers6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  }
